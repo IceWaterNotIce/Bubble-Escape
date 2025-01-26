@@ -6,10 +6,11 @@ using UnityEngine.InputSystem;
  */
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 2f; // 移動速度
-    public float pushForce = 5f; // 推進力
+    public float moveSpeed = 0.001f; // 移動速度
+    public float pushForce = 10f; // 推進力
     private Vector2 moveInput; // 儲存移動輸入
     private InputSystem_Actions playerInputActions; // 輸入動作類
+    private Rigidbody2D rb; // 玩家剛體
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -20,25 +21,25 @@ public class PlayerMovement : MonoBehaviour
         playerInputActions.Player.Move.canceled += ctx => moveInput = Vector2.zero;
         playerInputActions.Player.Jump.performed += ctx => OnJump();
         playerInputActions.Enable();
+
+        // 獲取 Rigidbody2D 組件
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void Update()
+    // FixedUpdate is called once per physics frame
+    void FixedUpdate()
     {
-        // 移動角色
-        transform.Translate(moveInput.x * moveSpeed * Time.deltaTime, 0, 0);
+        // 根據輸入移動角色
+        rb.linearVelocity = moveInput * moveSpeed + rb.linearVelocity;
+        
+
     }
 
     // 處理空格鍵按下事件
     private void OnJump()
     {
-        // 如果沒有按下 WASD，則默認為按下 W
-        if (moveInput == Vector2.zero)
-        {
-            moveInput = new Vector2(0, 1); // 默認向上推進
-        }
-
         // 根據當前的移動輸入推進角色
-        transform.Translate(moveInput.x * pushForce * Time.deltaTime, moveInput.y * pushForce * Time.deltaTime, 0);
+        rb.AddForce(moveInput * pushForce, ForceMode2D.Impulse);
+        Debug.Log("Jump");
     }
 }
