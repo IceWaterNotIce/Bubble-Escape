@@ -1,4 +1,4 @@
-using UnityEditor.Search;
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -21,7 +21,7 @@ class LevelManager : Singleton<LevelManager>
         Debug.Log("Win");
 
         // show ui
-        
+
     }
 
     public void StartLevel(int level)
