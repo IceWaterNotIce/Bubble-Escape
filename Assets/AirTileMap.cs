@@ -18,7 +18,8 @@ public class AirTileMap : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            LevelManager.Instance.Win();
+            LevelManager levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
+            levelManager.Win();
         }
     }
 }
