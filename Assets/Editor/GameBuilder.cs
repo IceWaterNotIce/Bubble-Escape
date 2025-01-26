@@ -31,7 +31,7 @@ public class GameBuilder : IPreprocessBuildWithReport
     public static void CommitAndPush()
     {
         string platform = BuildProfile.GetActiveBuildProfile().name;
-        string versionParts = PlayerSettings.bundleVersion.Replace(".", "");
+        string versionParts = PlayerSettings.bundleVersion;
         RunGitCommand("git add .");
         RunGitCommand("git commit -m \"Auto commit from Unity Builder. \"");
         RunGitCommand("git tag -a " + platform + "v" + versionParts + " -m \"Auto tag from Unity Builder. \"");
