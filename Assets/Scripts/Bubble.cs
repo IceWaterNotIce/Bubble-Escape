@@ -16,6 +16,6 @@ class Bubble : MonoBehaviour
         float scale = 0.4f + postitionY / 20;
         transform.localScale = new Vector3(scale, scale, 1);
 
-        rb.linearVelocity = new Vector2(0, 1);
+        rb.linearVelocity += new Vector2(0, 0.07f);
     }
 }
