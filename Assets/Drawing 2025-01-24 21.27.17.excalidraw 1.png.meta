@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: cca77bce5d1e3424b904d2d38655667a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -907054675513207665
+    second: Drawing 2025-01-24 21.27.17.excalidraw 1_0
+  - first:
+      213: 7927641575354418191
+    second: Drawing 2025-01-24 21.27.17.excalidraw 1_1
+  - first:
+      213: 2635999740446392290
+    second: Drawing 2025-01-24 21.27.17.excalidraw 1_2
+  - first:
+      213: 2093277266356420644
+    second: Drawing 2025-01-24 21.27.17.excalidraw 1_3
+  - first:
+      213: -3655159756448181230
+    second: Drawing 2025-01-24 21.27.17.excalidraw 1_4
+  - first:
+      213: -2110211856857088118
+    second: Drawing 2025-01-24 21.27.17.excalidraw 1_5
+  - first:
+      213: 8356997716472189644
+    second: Drawing 2025-01-24 21.27.17.excalidraw 1_6
+  - first:
+      213: -1981334557404633311
+    second: Drawing 2025-01-24 21.27.17.excalidraw 1_7
+  - first:
+      213: -8863373048398736434
+    second: Drawing 2025-01-24 21.27.17.excalidraw 1_8
+  - first:
+      213: -1890094083920645716
+    second: Drawing 2025-01-24 21.27.17.excalidraw 1_9
+  - first:
+      213: 5721927854518257929
+    second: Drawing 2025-01-24 21.27.17.excalidraw 1_10
+  - first:
+      213: 3565743018908072491
+    second: Drawing 2025-01-24 21.27.17.excalidraw 1_11
+  - first:
+      213: -8228631749781945484
+    second: Drawing 2025-01-24 21.27.17.excalidraw 1_12
+  - first:
+      213: 3444026892315887492
+    second: Drawing 2025-01-24 21.27.17.excalidraw 1_13
+  - first:
+      213: 4193506719802986691
+    second: Drawing 2025-01-24 21.27.17.excalidraw 1_14
+  - first:
+      213: 8939189199527881172
+    second: Drawing 2025-01-24 21.27.17.excalidraw 1_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Drawing 2025-01-24 21.27.17.excalidraw 1_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 164
+        width: 133
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f849d22149e7963f0800000000000000
+      internalID: -907054675513207665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drawing 2025-01-24 21.27.17.excalidraw 1_1
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 195
+        width: 34
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f044e95a204a40e60800000000000000
+      internalID: 7927641575354418191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drawing 2025-01-24 21.27.17.excalidraw 1_2
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 244
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef345d3cc3f49420800000000000000
+      internalID: 2635999740446392290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drawing 2025-01-24 21.27.17.excalidraw 1_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 151
+        width: 120
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42043954590dc0d10800000000000000
+      internalID: 2093277266356420644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drawing 2025-01-24 21.27.17.excalidraw 1_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 14
+        width: 11
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2145a9f3193464dc0800000000000000
+      internalID: -3655159756448181230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drawing 2025-01-24 21.27.17.excalidraw 1_5
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 21
+        width: 99
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f373f1f7507b2e0800000000000000
+      internalID: -2110211856857088118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drawing 2025-01-24 21.27.17.excalidraw 1_6
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 26
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2531755250af370800000000000000
+      internalID: 8356997716472189644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drawing 2025-01-24 21.27.17.excalidraw 1_7
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 20
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127e0b4b7b2e084e0800000000000000
+      internalID: -1981334557404633311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drawing 2025-01-24 21.27.17.excalidraw 1_8
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 31
+        width: 63
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec31c623c29fef480800000000000000
+      internalID: -8863373048398736434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drawing 2025-01-24 21.27.17.excalidraw 1_9
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 24
+        width: 88
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1b7dfd17905c5e0800000000000000
+      internalID: -1890094083920645716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drawing 2025-01-24 21.27.17.excalidraw 1_10
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 61
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90949fe411f586f40800000000000000
+      internalID: 5721927854518257929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drawing 2025-01-24 21.27.17.excalidraw 1_11
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 79
+        width: 51
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a385232601c7130800000000000000
+      internalID: 3565743018908072491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drawing 2025-01-24 21.27.17.excalidraw 1_12
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 47
+        width: 13
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4730fbe45070ecd80800000000000000
+      internalID: -8228631749781945484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drawing 2025-01-24 21.27.17.excalidraw 1_13
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 58
+        width: 91
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48781691634abcf20800000000000000
+      internalID: 3444026892315887492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drawing 2025-01-24 21.27.17.excalidraw 1_14
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 31
+        width: 62
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0121db424523a30800000000000000
+      internalID: 4193506719802986691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drawing 2025-01-24 21.27.17.excalidraw 1_15
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 15
+        width: 71
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d92ed117316e0c70800000000000000
+      internalID: 8939189199527881172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Drawing 2025-01-24 21.27.17.excalidraw 1_0: -907054675513207665
+      Drawing 2025-01-24 21.27.17.excalidraw 1_1: 7927641575354418191
+      Drawing 2025-01-24 21.27.17.excalidraw 1_10: 5721927854518257929
+      Drawing 2025-01-24 21.27.17.excalidraw 1_11: 3565743018908072491
+      Drawing 2025-01-24 21.27.17.excalidraw 1_12: -8228631749781945484
+      Drawing 2025-01-24 21.27.17.excalidraw 1_13: 3444026892315887492
+      Drawing 2025-01-24 21.27.17.excalidraw 1_14: 4193506719802986691
+      Drawing 2025-01-24 21.27.17.excalidraw 1_15: 8939189199527881172
+      Drawing 2025-01-24 21.27.17.excalidraw 1_2: 2635999740446392290
+      Drawing 2025-01-24 21.27.17.excalidraw 1_3: 2093277266356420644
+      Drawing 2025-01-24 21.27.17.excalidraw 1_4: -3655159756448181230
+      Drawing 2025-01-24 21.27.17.excalidraw 1_5: -2110211856857088118
+      Drawing 2025-01-24 21.27.17.excalidraw 1_6: 8356997716472189644
+      Drawing 2025-01-24 21.27.17.excalidraw 1_7: -1981334557404633311
+      Drawing 2025-01-24 21.27.17.excalidraw 1_8: -8863373048398736434
+      Drawing 2025-01-24 21.27.17.excalidraw 1_9: -1890094083920645716
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
