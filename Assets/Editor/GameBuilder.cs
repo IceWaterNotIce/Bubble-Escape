@@ -19,13 +19,26 @@ public class GameBuilder : IPreprocessBuildWithReport
     {
         SetPlatformVar();
         UpdateVersion();
-        CommitAndPushToGit(BuildProfile.GetActiveBuildProfile().name, PlayerSettings.bundleVersion);
     }
 
     [PostProcessBuild]
     public static void OnPostprocessBuild(BuildTarget target, string path)
     {
         UnityEngine.Debug.Log("Build completed");
+    }
+
+    [MenuItem("Build/Commit and Push to Git")]
+    public static void CommitAndPush()
+    {
+        string platform = BuildProfile.GetActiveBuildProfile().name;
+        string versionParts = PlayerSettings.bundleVersion.Replace(".", "");
+        RunGitCommand("git add .");
+        RunGitCommand("git commit -m \"Auto commit from Unity Builder. \"");
+        RunGitCommand("git tag -a " + platform + "v" + versionParts + " -m \"Auto tag from Unity Builder. \"");
+        RunGitCommand("git push origin main");
+        RunGitCommand("git push origin v" + versionParts);
+
+        UnityEngine.Debug.Log("Git commit and push done");
     }
 
 
@@ -64,7 +77,7 @@ public class GameBuilder : IPreprocessBuildWithReport
         }
     }
 
-    
+
     private void SetPlatformVar()
     {
         // load txt from resources
@@ -78,6 +91,24 @@ public class GameBuilder : IPreprocessBuildWithReport
         var activeProfile = BuildProfile.GetActiveBuildProfile();
         var currentBuildTarget = activeProfile.name;
         UnityEngine.Debug.Log("Current Build Target: " + currentBuildTarget);
+
+        // check bundle version format
+        string[] versionParts = PlayerSettings.bundleVersion.Split('.');
+        if (versionParts.Length != 3)
+        {
+            // if version is = "1.0" then add ".0" to the end
+            if (versionParts.Length == 2)
+            {
+                PlayerSettings.bundleVersion += ".0";
+                UnityEngine.Debug.Log("Version updated to " + PlayerSettings.bundleVersion);
+            }
+            else
+            {
+                UnityEngine.Debug.LogError("Version format is not correct. It should be like 1.0.0");
+                return;
+            }
+        }
+
         string versionFilePath = Path.Combine(Application.streamingAssetsPath, "version.json");
         if (File.Exists(versionFilePath))
         {
@@ -110,11 +141,9 @@ public class GameBuilder : IPreprocessBuildWithReport
                     break;
                 }
             }
-
-
         }
 
-        string[] versionParts = PlayerSettings.bundleVersion.Split('.');
+        versionParts = PlayerSettings.bundleVersion.Split('.');
         if (versionParts.Length == 3)
         {
             if (int.TryParse(versionParts[2], out int patchVersion))
@@ -134,16 +163,7 @@ public class GameBuilder : IPreprocessBuildWithReport
         }
     }
 
-    private static void CommitAndPushToGit(string platform, string versionParts)
-    {
-        RunGitCommand("git add .");
-        RunGitCommand("git commit -m \"Auto commit from Unity Builder. \"");
-        RunGitCommand("git tag -a " + platform + "v" + versionParts + " -m \"Auto tag from Unity Builder. \"");
-        RunGitCommand("git push origin main");
-        RunGitCommand("git push origin v" + versionParts);
 
-        UnityEngine.Debug.Log("Git commit and push done");
-    }
 
     private static void RunGitCommand(string command)
     {
